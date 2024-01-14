@@ -1,0 +1,9 @@
+jupyterlab
+nbclient
+matplotlib
+numpy
+pandas
+plotly
+rich
+scikit-learn
+seaborn
