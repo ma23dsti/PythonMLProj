@@ -1,9 +1,9 @@
 jupyterlab
 nbclient
-matplotlib
-numpy
-pandas
-plotly
+matplotlib==3.7.2
+numpy==1.24.3
+pandas==2.0.3
+plotly==5.9.0
 rich
 scikit-learn
-seaborn
+seaborn==0.12.2
