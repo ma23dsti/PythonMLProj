@@ -1,1 +1,3 @@
 .vs/VSWorkspaceState.json
+.venv/
+PythonMLProj/__pycache__
