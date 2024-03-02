@@ -76,11 +76,11 @@ This directory contains the templates used for the Front end of the web applicat
 The python notebook Project1Code.py was created using the Python versions 3.11.5. 
 
 To run the project it is possible to create an environment from the requirements.txt file with command:
-    python -m venv <virtual_environment_name> <virtual_environment_folder_path>
-    Go to the virtual environment folder then go to the folder Scripts/
-    Run : activate.bat
-    Go to the folder of the file requirements.txt
-    Run : pip install -r requirements.txt
+- python -m venv <virtual_environment_name> <virtual_environment_folder_path>
+- Go to the virtual environment folder then go to the folder Scripts/
+- Run : activate.bat
+- Go to the folder of the file requirements.txt
+- Run : pip install -r requirements.txt
 
 The requirements file works on Windows. For Linux, no test was made. 
 
@@ -90,7 +90,7 @@ Once the requirements are ready, to explore this project open the Project1Code.p
 ## Model Deployment
 
 To run the Wep App, after cloning the project:
-    Install required libraries from the requirements.txt file.
-    Open a Terminal.
-    Run the Web App Server with the command 'python manage.py runserver'.
-    From the web navigator,open the URL http://127.0.0.1:xxxx/ displayed in the terminal where you did the previous step.
+- Install required libraries from the requirements.txt file.
+- Open a Terminal.
+- Run the Web App Server with the command 'python manage.py runserver'.
+- From the web navigator,open the URL http://127.0.0.1:xxxx/ displayed in the terminal where you did the previous step.
