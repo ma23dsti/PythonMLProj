@@ -39,8 +39,8 @@ jobs:
 
       - id: jupyter
         name: Jupyter Notebook Execution
-        #run: jupyter execute Src/Project1Code.ipynb
-        run: jupyter nbconvert --to notebook --execute Src/Project1Code.ipynb
+        #run: jupyter execute PythonMLProj/Project1Code.ipynb
+        run: jupyter nbconvert --to notebook --execute PythonMLProj/Project1Code.ipynb
         #shell: bash
 
       # Runs a single command using the runners shell
@@ -57,13 +57,17 @@ jobs:
         #uses: actions/upload-artifact@v4
         #with:
           #name: my-artifact
-          #path: Src/
+          #path: PythonMLProj/
 
       - name: Save-results-as-Artifact
         uses: actions/upload-artifact@v4
         with:
           name: notebook-results
-          path: Src/Project1Code.ipynb
+          #path: PythonMLProj/Project1Code.ipynb
+          path: |
+            PythonMLProj/Project1Code.ipynb
+            PythonMLProj/RF_DataTransform.joblib
+            PythonMLProj/modelRF.joblib
 
       - name: Output artifact URL
         run:  |
