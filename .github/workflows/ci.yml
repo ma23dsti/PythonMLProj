@@ -63,7 +63,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: notebook-results
-          path: PythonMLProj/Project1Code.ipynb
+          #path: PythonMLProj/Project1Code.ipynb
+          path: |
+            PythonMLProj/Project1Code.ipynb
+            PythonMLProj/RF_DataTransform.joblib
+            PythonMLProj/modelRF.joblib
 
       - name: Output artifact URL
         run:  |
